@@ -1,0 +1,36 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.animated-text {
+    font-size: 80px;
+    color: #e64c6c;
+    animation: animated-text 3s ease-in-out infinite;
+}
+
+@keyframes animated-text {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.sub-text {
+    color: #666;
+    font-size: 30px;
+}
